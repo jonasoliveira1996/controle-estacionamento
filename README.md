@@ -1,2 +1,2 @@
 # controle-estacionamento
-Projeto de controle de estacionamento com Spring Boot.
+Restful api, Spring Boot e mysql para construção do projeto.
