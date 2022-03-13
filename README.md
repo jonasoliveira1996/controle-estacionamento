@@ -7,7 +7,7 @@ Será usado o programa postman para apresentação dos métodos HTTP.
 
 Método GET:
 
-<img align="center" alt="Jonas-Java" height="30" src="https://github.com/jonasoliveira1996/Controle-Estacionamento/issues/1#issue-1167651824" />
+![métodoGET](https://user-images.githubusercontent.com/59143930/158072969-d21f12cf-5628-4f95-be30-35a620744189.png)
 
 Método POST:
 
