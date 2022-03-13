@@ -12,3 +12,10 @@ Método GET:
 Método POST:
 
 ![métodoPOST](https://user-images.githubusercontent.com/59143930/158073665-bdf87676-4e1e-4ab6-9672-9d1eb30e3905.png)
+
+Método PUT:
+
+![métodoPUT](https://user-images.githubusercontent.com/59143930/158074134-54fc6c4f-fe80-49f8-bcce-506fbd80b4c8.png)
+![Conferindo-MétodoPUT](https://user-images.githubusercontent.com/59143930/158074158-27a9ab97-e4f4-4876-b383-faad21ab5690.png)
+
+Método DELETE:
