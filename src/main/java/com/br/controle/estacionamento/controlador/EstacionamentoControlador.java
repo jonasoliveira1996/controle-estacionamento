@@ -26,7 +26,7 @@ import com.br.controle.estacionamento.repositorios.EstacionamentoRepositorio;
 @RequestMapping("/estacionamento")
 public class EstacionamentoControlador {
 		
-		@Autowired
+		@Autowired(required = true)
 		private EstacionamentoRepositorio estacionamentoRepositorio;
 
 		@GetMapping
