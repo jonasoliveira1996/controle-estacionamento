@@ -5,8 +5,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
-@SpringBootApplication(exclude= {DataSourceAutoConfiguration.class})
 @EnableJpaRepositories(basePackages = "com.br.controle.estacionamento.repositorios")
+@SpringBootApplication
 public class ControleEstacionamentoApplication {
 
 	public static void main(String[] args) {
