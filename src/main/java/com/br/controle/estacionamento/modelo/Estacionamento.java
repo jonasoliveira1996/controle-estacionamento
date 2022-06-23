@@ -15,8 +15,7 @@ import org.hibernate.annotations.GenericGenerator;
 public class Estacionamento {
 	
 	@Id
-	@GeneratedValue(generator = "increment")
-	@GenericGenerator(name = "increment", strategy = "increment")
+	@GeneratedValue(strategy=GenerationType.AUTO)
 	private Long id;
 	
 	@Column(nullable = false, unique = true, length = 10)
