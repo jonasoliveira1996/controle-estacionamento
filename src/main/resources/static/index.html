@@ -173,7 +173,7 @@
 			if (nomeResponsavel != null && nomeResponsavel.trim() != '') {
 				$.ajax({
 					method: "GET",
-					url: "estacionamento/buscarPorNome",
+					url: "https://controle-estacionamento-api.herokuapp.com/estacionamento/buscarPorNome",
 					data: "nomeResponsavel=" + nomeResponsavel,
 					
 					success: function (response){
@@ -188,7 +188,7 @@
 			} else {
 				$.ajax({
 					method: "GET",
-					url: "estacionamento",
+					url: "https://controle-estacionamento-api.herokuapp.com/estacionamento",
 					
 					success: function (response){
 						$('#tabelaBusca > tbody > tr').remove();
@@ -206,7 +206,7 @@
 			
 			$.ajax({
 				method: "GET",
-				url: "estacionamento/buscarPorId",
+				url: "https://controle-estacionamento-api.herokuapp.com/estacionamento/buscarPorId",
 				data: "id=" + id,
 				
 				success: function (response){
@@ -243,7 +243,7 @@
 			
 			$.ajax({
 				method: "POST",
-				url: "estacionamento/cadastrar",
+				url: "https://controle-estacionamento-api.herokuapp.com/estacionamento/cadastrar",
 				data: JSON.stringify({numeroVagaEstacionamento : numeroVagaEstacionamento, placaCarro : placaCarro, marcaCarro : marcaCarro, 
 					modeloCarro : modeloCarro, corCarro : corCarro, nomeResponsavel : nomeResponsavel, apartamento : apartamento,
 					apartamento : apartamento, bloco : bloco}),
@@ -261,7 +261,7 @@
 			
 			$.ajax({
 				method: "DELETE",
-				url: "estacionamento/deletarPorId",
+				url: "https://controle-estacionamento-api.herokuapp.com/estacionamento/deletarPorId",
 				data: "id=" + id,
 				
 				success: function (response){
@@ -293,7 +293,7 @@
 			
 			$.ajax({
 				method: "PUT",
-				url: "estacionamento/editar",
+				url: "https://controle-estacionamento-api.herokuapp.com/estacionamento/editar",
 				data: JSON.stringify({id : id, numeroVagaEstacionamento : numeroVagaEstacionamento, placaCarro : placaCarro, marcaCarro : marcaCarro, 
 					modeloCarro : modeloCarro, corCarro : corCarro, nomeResponsavel : nomeResponsavel, apartamento : apartamento,
 					apartamento : apartamento, bloco : bloco}),
