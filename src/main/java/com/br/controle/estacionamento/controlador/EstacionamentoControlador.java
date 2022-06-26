@@ -98,7 +98,7 @@ public class EstacionamentoControlador {
 		public ResponseEntity<Object> excluirRegistro(@RequestParam(name="id") Long id){
 			
 			Optional<Estacionamento> estacionamentoOptional = estacionamentoRepositorio.findById(id);
-			
+			     
 			if(!estacionamentoOptional.isPresent()) {
 				return ResponseEntity.status(HttpStatus.NOT_FOUND).body("Registro não encotrada.");
 			}
